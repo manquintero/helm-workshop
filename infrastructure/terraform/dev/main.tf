@@ -11,7 +11,7 @@ provider "google-beta" {
 
 terraform {
   backend "gcs" {
-    bucket  = ""
+    bucket  = "cerouno-helm-infraestructure"
     prefix  = "terraform/terraform.state"
   }
 }
